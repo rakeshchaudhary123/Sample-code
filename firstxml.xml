@@ -1,0 +1,25 @@
+<?xml-stylesheet href ="exxmlcss.css" version = "1.0" ?>
+<!DOCTYPE employee [ 
+<!ELEMENT employee (name, hiredate, address,emailid)> 
+<!ELEMENT name (lastname, firstname)> 
+<!ELEMENT lastname (#PCDATA)> 
+<!ELEMENT firstname (#PCDATA)> 
+<!ELEMENT hiredate (#PCDATA)> 
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT emailid (#PCDATA)>
+
+] > 
+
+  <employee>
+    <name>
+      <firstname>ABC</firstname>
+      <lastname>XYZ</lastname>
+    </name>
+	
+    <hiredate>Nov 6, 2018</hiredate>
+	<address>ABC road </address>
+	<emailid>abcd@gmail.com</emailid>
+	
+    
+  </employee>
+
